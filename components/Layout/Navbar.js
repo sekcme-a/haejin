@@ -35,7 +35,7 @@ const NavbarStyle2 = () => {
                   <img
                     src="/images/logo.png"
                     alt="동우개발 로고"
-                    className="o"
+                    // className="o"
                     style={{width: "200px", marginLeft: "20px"}}
                   />
                 </a>

@@ -44,7 +44,7 @@ const Application = () => {
   useEffect(()=> {
 
     const uploadData = async () => {
-      await db.collection("development").doc("data").collection("application").doc().set({
+      await db.collection("team").doc("development").collection("applications").doc().set({
         ...contact,
         fileList: fileList,
         createdAt: new Date(),
