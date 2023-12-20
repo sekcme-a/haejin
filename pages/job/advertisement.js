@@ -2,11 +2,11 @@
 
 import React, {useState, useEffect} from "react";
 import Navbar from "components/Layout/Navbar";
-import PageBanner from "components/Common/PageBanner";
+import PageBanner from "src/public/PageBanner";
 import Footer from "components/Layout/Footer/Footer";
 import { CircularProgress, Grid } from "@mui/material"
 
-import AdvertisementCompo from "components/job/Advertisement"
+import AdvertisementCompo from "src/job/Advertisement"
 
 import useData from "context/data";
 
@@ -28,7 +28,6 @@ const Advertisement = () => {
 
   return(
     <>
-      <Navbar />
 
       <PageBanner title="채용공고" subtitle="Job Advertisement" homeText="채용공고" homeUrl="/job/advertisement" />
 

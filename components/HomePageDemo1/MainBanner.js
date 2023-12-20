@@ -84,7 +84,7 @@ const MainBanner = () => {
         <div className="main-banner-shape-2">
           <img src="/images/main-banner/shape-2.png" alt="Shape 2" />
         </div>
-        <div className="main-banner-bg-text">동우개발</div>
+        <div className="main-banner-bg-text">혜진종합관리</div>
       </div>
     </>
   );

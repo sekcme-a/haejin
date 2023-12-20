@@ -15,7 +15,7 @@ const ServiceDetailsContent = () => {
                   </a>
                 </Link>
 
-                <img src="/images/services-details.jpg" alt="동우개발" />
+                <img src="/images/services-details.jpg" alt="혜진종합관리" />
 
                 <h3>Business Strategy</h3>
                 <p>

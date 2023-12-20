@@ -2,7 +2,7 @@
 import { Fragment, useEffect, useState } from 'react'
 import styles from "./DropperImage.module.css"
 
-import { handleProfileImage } from "components/hooks/handleProfileImage"
+import { handleProfileImage } from "src/hooks/handleProfileImage"
 
 // ** MUI Imports
 import Box from '@mui/material/Box'

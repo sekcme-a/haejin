@@ -29,7 +29,7 @@ const CaseStudy = () => {
                   <a>
                     <img
                       src="/images/case-study/case-study-1.jpg"
-                      alt="동우개발"
+                      alt="혜진종합관리"
                     />
                   </a>
                 </Link>
@@ -54,7 +54,7 @@ const CaseStudy = () => {
                   <a>
                     <img
                       src="/images/case-study/case-study-2.jpg"
-                      alt="동우개발"
+                      alt="혜진종합관리"
                     />
                   </a>
                 </Link>

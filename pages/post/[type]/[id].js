@@ -3,9 +3,8 @@ import useData from "context/data"
 import { useRouter } from "next/router"
 import { useState } from "react"
 import { useEffect } from "react"
-import PageBanner from "components/Common/PageBanner"
+import PageBanner from "src/public/PageBanner"
 import PostCompo from "components/post/Post"
-import NavbarStyle2 from "components/Layout/Navbar"
 
 const Post = () => {
   const router = useRouter()
@@ -33,7 +32,6 @@ const Post = () => {
 
   return(
     <>
-     <NavbarStyle2/>
       <PageBanner title="채용공고" subtitle="Job Application" homeText="인재 채용" homeUrl="/job/advertisement" />
 
       {isLoading ? 

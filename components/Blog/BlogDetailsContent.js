@@ -11,7 +11,7 @@ const BlogDetailsContent = () => {
             <div className="col-lg-8 col-md-12">
               <div className="blog-details-desc">
                 <div className="blog-img">
-                  <img src="/images/blog/blog-8.jpg" alt="동우개발" />
+                  <img src="/images/blog/blog-8.jpg" alt="혜진종합관리" />
                 </div>
 
                 <ul className="meta-tag">
@@ -81,12 +81,12 @@ const BlogDetailsContent = () => {
                     <div className="row justify-content-center">
                       <div className="col-lg-6 col-md-6">
                         <div className="image">
-                          <img src="/images/blog/blog-9.jpg" alt="동우개발" />
+                          <img src="/images/blog/blog-9.jpg" alt="혜진종합관리" />
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <div className="image">
-                          <img src="/images/blog/blog-4.jpg" alt="동우개발" />
+                          <img src="/images/blog/blog-4.jpg" alt="혜진종합관리" />
                         </div>
                       </div>
                     </div>
@@ -148,7 +148,7 @@ const BlogDetailsContent = () => {
                             type="email"
                             name="name"
                             className="form-control"
-                            placeholder="example@동우개발.com"
+                            placeholder="example@혜진종합관리.com"
                           />
                         </div>
                       </div>

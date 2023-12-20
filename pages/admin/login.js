@@ -3,7 +3,7 @@ import useUserData from "context/userData"
 import useData from "context/data";
 import { useRouter } from "next/router";
 
-import IdAndPassword from "components/admin/IdAndPassword";
+import IdAndPassword from "src/admin/IdAndPassword";
 
 const Login = () => {
   const {user, userData} = useUserData()
@@ -11,7 +11,7 @@ const Login = () => {
   const router = useRouter()
 
   useEffect(()=>{ 
-    if(user && userData && (userData.roles.includes("development_super_admin")||userData.roles.includes("super_admin"))){
+    if(user && userData && (userData.roles.includes("haejin_super_admin")||userData.roles.includes("super_admin"))){
       setIsEditMode(true)
       router.push("/")
     }

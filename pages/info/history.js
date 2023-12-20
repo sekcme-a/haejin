@@ -2,10 +2,10 @@
 
 import React from "react";
 import Navbar from "components/Layout/Navbar";
-import PageBanner from "components/Common/PageBanner";
+import PageBanner from "src/public/PageBanner";
 import Footer from "components/Layout/Footer/Footer";
 
-import HistoryCompo from "components/info/History";
+import HistoryCompo from "src/info/History";
 
 
 import useData from "context/data";
@@ -22,7 +22,6 @@ useEffect(()=>{
 
   return(
     <>
-      <Navbar />
 
       <PageBanner title="연혁" subtitle="History" homeText="회사소개" homeUrl="/info/greet" />
 

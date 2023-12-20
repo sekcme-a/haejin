@@ -7,14 +7,14 @@ import {motion, useAnimation} from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import useData from "context/data"
 
-import EditButton from "components/admin/EditButton"
+import EditButton from "src/admin/EditButton"
 
 const SEQUENTIALDELAY = 0.2
 const Building = () => {
   const [monitorSize, setMonitorSize] = useState(0);
   const {data, fetch_data} = useData()
   const [fetchedData, setFetchedData] = useState({
-    text1:`(주)동우개발은 공동주택관리 분야를 선도하고 있습니다.
+    text1:`(주)혜진종합관리은 공동주택관리 분야를 선도하고 있습니다.
   고객감동 서비스를 경영이념으로 실천하며 선진화 된 경영관리 기법을 현장에 적용 집합건물 분야의 선두 기업으로서 책임을 다하고 있습니다.`,
     text2:`빌딩 관리를 통해 건물의 수명 연장과 재산가치 증대를 위해 서비스를 제공하며 이용자에게 편리하고 안전한 공간 제공을 위하여 최선을 다하고 있습니다.`,
     list: [

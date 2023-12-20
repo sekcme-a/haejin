@@ -28,7 +28,7 @@ const CaseStudyDetailsContent = () => {
                           <h5>Client:</h5>
                           <span>
                             <a href="https://envytheme.com/" target="_blank" rel="noreferrer">
-                              동우개발 LTD
+                              혜진종합관리 LTD
                             </a>
                           </span>
                         </div>
@@ -44,7 +44,7 @@ const CaseStudyDetailsContent = () => {
                           <h5>Website:</h5>
                           <span>
                             <a href="https://envytheme.com/" target="_blank" rel="noreferrer">
-                              동우개발.com
+                              혜진종합관리.com
                             </a>
                           </span>
                         </div>
@@ -62,7 +62,7 @@ const CaseStudyDetailsContent = () => {
             </div>
  
             <div className="case-study-details-content">  
-              <img src="/images/case-study-details.jpg" alt="동우개발" />
+              <img src="/images/case-study-details.jpg" alt="혜진종합관리" />
 
               <h3>
                 <span>01.</span> Сhallenge

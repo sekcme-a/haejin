@@ -1,4 +1,4 @@
-import EditButton from "components/admin/EditButton";
+import EditButton from "src/admin/EditButton";
 import useData from "context/data";
 import React, {useState, useEffect} from "react";
 import useScrollCount from "utils/useScrollCount";

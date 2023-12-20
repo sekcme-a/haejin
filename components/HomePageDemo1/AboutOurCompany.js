@@ -15,10 +15,10 @@ const AboutOurCompany = () => {
               data-aos-once="true"
             >
               <div className="about-image">
-                <img src="/images/about/about-1.png" alt="동우개발" />
+                <img src="/images/about/about-1.png" alt="혜진종합관리" />
 
                 <div className="about-shape-1">
-                  <img src="/images/about/shape-1.png" alt="동우개발" />
+                  <img src="/images/about/shape-1.png" alt="혜진종합관리" />
                 </div>
               </div>
             </div>
@@ -61,7 +61,7 @@ const AboutOurCompany = () => {
         </div>
 
         <div className="about-shape-2">
-          <img src="/images/about/shape-2.png" alt="동우개발" />
+          <img src="/images/about/shape-2.png" alt="혜진종합관리" />
         </div>
       </div>
     </>

@@ -1,0 +1,20 @@
+
+.icon{
+  color: #1670FF;
+  font-size: 45px !important;
+}
+
+.hover_effect{
+  /* transition: .5s; */
+  cursor: pointer;
+}
+.hover_effect:hover{
+  color: #1670FF !important;
+}
+
+
+@media screen and (max-width: 991px) {
+  .icon{
+    font-size: 35px !important;
+  }
+}

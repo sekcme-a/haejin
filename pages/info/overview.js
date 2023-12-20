@@ -1,7 +1,7 @@
 
 import React from "react";
 import Navbar from "components/Layout/Navbar";
-import PageBanner from "components/Common/PageBanner";
+import PageBanner from "src/public/PageBanner";
 import AboutOurCompany from "components/About2/AboutOurCompany";
 import FunFactStyle1 from "components/Common/FunFactStyle1";
 import Pricing from "components/PricingPlan/Pricing";
@@ -17,6 +17,8 @@ import OverviewCompo from "components/info/Overview"
 
 import useData from "context/data";
 import { useEffect } from "react";
+import WorkingProcess from "src/info/WorkingProcess";
+import OverviewContent from "src/info/OverviewContent";
 
 
 export default function Overview() {
@@ -29,15 +31,12 @@ export default function Overview() {
 
   return (
     <>
-      <Navbar />
 
-      <PageBanner title="회사 개요(사훈, 경영이념)" subtitle="Company Overview (Motto, Management Philosophy)" homeText="회사소개" homeUrl="/info/greet" />
+      <PageBanner title="회사 개요" subtitle="Company Overview" homeText="회사소개" homeUrl="/info/greet" />
 
-      <div className="pt-100">
-        <OverviewCompo />
-      </div>
+        <WorkingProcess />
 
-
+        <OverviewContent />
       <Footer />
     </>
   );

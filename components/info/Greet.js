@@ -1,6 +1,6 @@
 import useData from "context/data";
 import React from "react";
-import EditButton from "components/admin/EditButton";
+import EditButton from "src/admin/EditButton";
 
 const Greet = () => {
   const PR = {position:"relative"}
@@ -53,7 +53,7 @@ const Greet = () => {
         </div>
 
         <div className="about-shape-2">
-          <img src="/images/about/shape-2.png" alt="동우개발" />
+          <img src="/images/about/shape-2.png" alt="혜진종합관리" />
         </div>
       </div>
     </>

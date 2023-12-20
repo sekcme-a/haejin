@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import useData from "context/data";
-import EditButton from "components/admin/EditButton";
+import EditButton from "src/admin/EditButton";
 
 const PR = {position: 'relative'}
 
@@ -30,12 +30,12 @@ const OurServices = () => {
   }, []);
 // 991
   const icons = [
-    "ri-cast-line",
+
+    "ri-computer-line",
     "ri-codepen-line",
-    "ri-stack-line",
+
     "ri-compass-line",
-    "ri-code-line",
-    "ri-codepen-line",
+    "ri-cast-line",
   ]
   // ri-computer-line
 
@@ -49,8 +49,8 @@ const OurServices = () => {
             type="main" item="ourServices_list" text="내용을 입력해주세요."
           />
           <div className="section-title">
-            <span>관리 분야</span>
-            <h2>동우 개발의 관리 분야를 소개합니다.</h2>
+            <span>사업 분야</span>
+            <h2>혜진종합관리의 사업 분야입니다.</h2>
           </div>
 
           <div className="row justify-content-center">

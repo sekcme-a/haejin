@@ -1,20 +1,19 @@
 import React from "react";
 import Navbar from "components/Layout/Navbar";
-import PageBanner from "components/Common/PageBanner";
+import PageBanner from "src/public/PageBanner";
 import Link from 'next/link';
 import Footer from "components/Layout/Footer/Footer";
 
 export default function Custom404() {
   return (
     <>
-      <Navbar />
 
       <PageBanner title="404 Error" homeText="Home" homeUrl="/" />
 
       <div className="error-area ptb-100">
         <div className="container">
           <div className="error-content">
-            <img src="/images/error.png" alt="동우개발" />
+            <img src="/images/error.png" alt="혜진종합관리" />
             <h3>Error 404 : Page Not Found</h3>
             <p>
               The page you are looking for might have been removed had its name
@@ -27,7 +26,6 @@ export default function Custom404() {
         </div>
       </div>
 
-      <Footer />
     </>
   );
 }

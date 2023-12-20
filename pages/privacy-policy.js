@@ -1,12 +1,11 @@
 import React from "react";
 import Navbar from "components/Layout/Navbar";
-import PageBanner from "components/Common/PageBanner";
+import PageBanner from "src/public/PageBanner";
 import Footer from "components/Layout/Footer/Footer";
 
 export default function PrivacyPolicy() {
   return (
     <>
-      <Navbar />
 
       <PageBanner title="개인정보 수집 및 이용" subtitle="Privacy Policy" homeText="개인정보 수집 및 이용" homeUrl="/privacy-policy" />
 
@@ -52,13 +51,13 @@ export default function PrivacyPolicy() {
               
               ※ 귀하는 개인정보 및 고유식별 정보 수집에 대한 동의를 거부할 권리가 있으며 다만, 동의하지 않는 경우 채용 심사에서 불이익을 받을 수 있습니다.
               
-              (주) 동우개발`}
+              (주) 혜진종합관리`}
             </p>
           </div>
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

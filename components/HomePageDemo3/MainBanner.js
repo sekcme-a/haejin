@@ -1,109 +1,97 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
 import Link from "next/link";
-import EditButton from "components/admin/EditButton";
 import useData from "context/data";
+import EditButton from "src/admin/EditButton";
 
 const MainBanner = () => {
+
   const {data} = useData()
 
 
   return (
     <>
-      <div className="main-banner-wrap-area">
-        <div className="container">
+      <div className="main-banner-area">
+        <div className="container-fluid">
           <div className="row align-items-center justify-content-center">
-            <div className="col-lg-6 col-md-12">
-              <div className="main-banner-wrap-content" style={{marginLeft: "10px"}}>
-                <span
-                  data-aos="fade-right"
-                  data-aos-delay="50"
-                  data-aos-duration="500"
-                  data-aos-once="true"
-                >
-                  DongWoo Development
-                 
-                </span>
-                <h1
-                  data-aos="fade-right"
-                  data-aos-delay="70"
-                  data-aos-duration="700"
-                  data-aos-once="true"
-                  style={{wordBreak:'keep-all', whiteSpace:"pre-line", position:"relative"}}
-                >
-                  {data.main.mainBanner_title}
-                   <EditButton type="main" item="mainBanner_title" text="제목" />
-                </h1>
-                <p
-                  data-aos="fade-right"
-                  data-aos-delay="580"
-                  data-aos-duration="800"
-                  data-aos-once="true"
-                >
-                  {data.main.mainBanner_subtitle}
-                  <EditButton type="main" item="mainBanner_subtitle" text="부제목" />
+            <div
+              className="col-lg-5 col-md-12"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="500"
+              data-aos-once="true"
+            >
+              <div className="main-banner-content">
+                <span style={{color:"rgb(12, 12, 139)"}}>Hae Jin General Management</span>
+                <h1 style={{whiteSpace:"pre-line"}}>{`혜진종합관리`}</h1>
+                <h2 style={{whiteSpace:"pre-line"}}>{data?.main?.subtitle}{`경비용역/위생용역/이주관리,범죄예방`}</h2>
+                <EditButton type="main" item="aboutUs_title" text="제목" />
+                <p>
+                  {``}
                 </p>
-
-                <div
-                  className="banner-btn"
-                  data-aos="fade-right"
-                  data-aos-delay="90"
-                  data-aos-duration="900"
-                  data-aos-once="true"
-                >
-                  <Link href="/info/overview">
-                    <a className="default-btn">회사소개 보러가기</a>
+                <div className="banner-btn">
+                  <Link href="/contact">
+                    <a className="default-btn">Get A Quote</a>
                   </Link>
                 </div>
               </div>
             </div>
 
             <div
-              className="col-lg-6 col-md-12"
+              className="col-lg-7 col-md-12"
               data-aos="fade-left"
               data-aos-delay="50"
               data-aos-duration="500"
               data-aos-once="true"
             >
-              <div
-                className="main-banner-wrap-image"
+              <Swiper
+                spaceBetween={20}
+                slidesPerView={1}
+                loop={true}
+                autoplay={{
+                  delay: 6000,
+                  disableOnInteraction: false,
+                }}
+                modules={[Autoplay]}
+                className="mySwiper main-banner-image-slides"
               >
-                {/* 839*1080 */}
-                <img src={data.main.mainBanner_bannerBg} alt="동우개발" />
-
-                <div
-                  className="banner-wrap-shape-1"
-                >
-                  <img
-                    src="/images/main-banner/shape-1.png"
-                    alt="동우개발"
-                    data-aos="fade-down"
-                    data-aos-delay="80"
-                    data-aos-duration="800"
-                    data-aos-once="true"
-                  />
-              </div>
-                <EditButton
-                  type="main" item="mainBanner_bannerBg" text="배경이미지 삽입" mode="image" defaultImg="/images/main-banner/banner.png" 
-                  style={{position:"absolute", top: 150, right: 100}}
-                />
-                <div
-                  className="banner-wrap-shape-2"
-                >
-                  
-                  <img
-                    src="/images/main-banner/shape-2.png"
-                    alt="동우개발"
-                    data-aos="fade-up"
-                    data-aos-delay="90"
-                    data-aos-duration="900"
-                    data-aos-once="true"
-                  />
-
-                </div>
-              </div>
+                <SwiperSlide>
+                  <div className="slides-image-item">
+                    <img
+                      src="/images/main-banner/banner-1.jpg"
+                      alt="Banner Img 1"
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="slides-image-item">
+                    <img
+                      src="/images/main-banner/banner-2.jpg"
+                      alt="Banner Img 2"
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="slides-image-item">
+                    <img
+                      src="/images/main-banner/banner-3.jpg"
+                      alt="Banner Img 3"
+                    />
+                  </div>
+                </SwiperSlide>
+              </Swiper>
             </div>
           </div>
         </div>
+
+        <div className="main-banner-shape-1">
+          <img src="/images/main-banner/shape-1.png" alt="Shape 1" />
+        </div>
+        <div className="main-banner-shape-2">
+          <img src="/images/main-banner/shape-2.png" alt="Shape 2" />
+        </div>
+        <div className="main-banner-bg-text">혜진종합관리</div>
       </div>
     </>
   );

@@ -55,12 +55,12 @@ const WhyChooseUsStyle1 = () => {
                 data-aos-duration="500"
                 data-aos-once="true"
               >
-                <img src="/images/why-choose-us/choose-1.jpg" alt="동우개발" />
+                <img src="/images/why-choose-us/choose-1.jpg" alt="혜진종합관리" />
 
                 <div
                   className="why-choose-us-shape-1"
                 >
-                  <img src="/images/why-choose-us/shape-1.png" alt="동우개발" />
+                  <img src="/images/why-choose-us/shape-1.png" alt="혜진종합관리" />
                 </div>
               </div>
             </div>

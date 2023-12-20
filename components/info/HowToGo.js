@@ -2,9 +2,9 @@
 import useData from "context/data"
 import styles from "./HowToGo.module.css"
 import { useState, useEffect } from "react"
-import EditButton from "components/admin/EditButton"
+import EditButton from "src/admin/EditButton"
 // import useData from "context/data"
-// import EditButton from "components/admin/EditButton"
+// import EditButton from "src/admin/EditButton"
 const Map = () => {
   const {data} = useData()
 

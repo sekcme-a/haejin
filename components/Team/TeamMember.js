@@ -14,7 +14,7 @@ const TeamMember = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-1.jpg" alt="동우개발" />
+                  <img src="/images/team/team-1.jpg" alt="혜진종합관리" />
 
                   <ul className="social">
                     <li>
@@ -65,7 +65,7 @@ const TeamMember = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-5.jpg" alt="동우개발" />
+                  <img src="/images/team/team-5.jpg" alt="혜진종합관리" />
 
                   <ul className="social">
                     <li>
@@ -116,7 +116,7 @@ const TeamMember = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-2.jpg" alt="동우개발" />
+                  <img src="/images/team/team-2.jpg" alt="혜진종합관리" />
 
                   <ul className="social">
                     <li>
@@ -167,7 +167,7 @@ const TeamMember = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-3.jpg" alt="동우개발" />
+                  <img src="/images/team/team-3.jpg" alt="혜진종합관리" />
 
                   <ul className="social">
                     <li>
@@ -218,7 +218,7 @@ const TeamMember = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-4.jpg" alt="동우개발" />
+                  <img src="/images/team/team-4.jpg" alt="혜진종합관리" />
 
                   <ul className="social">
                     <li>
@@ -269,7 +269,7 @@ const TeamMember = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-6.jpg" alt="동우개발" />
+                  <img src="/images/team/team-6.jpg" alt="혜진종합관리" />
 
                   <ul className="social">
                     <li>
@@ -320,7 +320,7 @@ const TeamMember = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-7.jpg" alt="동우개발" />
+                  <img src="/images/team/team-7.jpg" alt="혜진종합관리" />
 
                   <ul className="social">
                     <li>
@@ -371,7 +371,7 @@ const TeamMember = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-8.jpg" alt="동우개발" />
+                  <img src="/images/team/team-8.jpg" alt="혜진종합관리" />
 
                   <ul className="social">
                     <li>
@@ -422,7 +422,7 @@ const TeamMember = () => {
         </div>
 
         <div className="team-shape-1">
-          <img src="/images/team/shape-1.png" alt="동우개발" />
+          <img src="/images/team/shape-1.png" alt="혜진종합관리" />
         </div>
       </div>
     </>

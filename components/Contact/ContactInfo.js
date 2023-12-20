@@ -28,8 +28,8 @@ const ContactInfo = () => {
                 </div>
                 <h3>Email Address</h3>
                 <p>
-                  <a href="mailto:info@동우개발.com">info@동우개발.com</a> <br />{" "}
-                  <a href="mailto:contact@동우개발.com">contact@동우개발.com</a>
+                  <a href="mailto:info@혜진종합관리.com">info@혜진종합관리.com</a> <br />{" "}
+                  <a href="mailto:contact@혜진종합관리.com">contact@혜진종합관리.com</a>
                 </p>
               </div>
             </div>

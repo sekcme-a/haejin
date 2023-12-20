@@ -14,7 +14,7 @@ const TeamMemberStyle3 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-team-card">
                 <div className="team-image">
-                  <img src="/images/team/team-1.jpg" alt="동우개발" />
+                  <img src="/images/team/team-1.jpg" alt="혜진종합관리" />
 
                   <ul className="social">
                     <li>
@@ -65,7 +65,7 @@ const TeamMemberStyle3 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-team-card">
                 <div className="team-image">
-                  <img src="/images/team/team-2.jpg" alt="동우개발" />
+                  <img src="/images/team/team-2.jpg" alt="혜진종합관리" />
 
                   <ul className="social">
                     <li>
@@ -116,7 +116,7 @@ const TeamMemberStyle3 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-team-card">
                 <div className="team-image">
-                  <img src="/images/team/team-3.jpg" alt="동우개발" />
+                  <img src="/images/team/team-3.jpg" alt="혜진종합관리" />
 
                   <ul className="social">
                     <li>

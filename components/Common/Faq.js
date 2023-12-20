@@ -78,12 +78,12 @@ const Faq = () => {
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                      동우개발은 어떤 종류의 건축 프로젝트를 주로 수행하나요?
+                      혜진종합관리은 어떤 종류의 건축 프로젝트를 주로 수행하나요?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                      동우개발은 주로 주거 및 상업용 건축 프로젝트를 수행하고 있습니다. 아파트, 상가, 오피스빌딩 등 다양한 유형의 건축물을 개발하고 있습니다.
+                      혜진종합관리은 주로 주거 및 상업용 건축 프로젝트를 수행하고 있습니다. 아파트, 상가, 오피스빌딩 등 다양한 유형의 건축물을 개발하고 있습니다.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import useData from "context/data";
-import EditButton from "components/admin/EditButton";
+import EditButton from "src/admin/EditButton";
 
 const PR = {position: "relative"}
 
@@ -118,12 +118,12 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="https://dongwoo-demo.netlify.app/">
-                      <a target="_blank">동우그룹</a>
+                      <a target="_blank">혜진종합관리</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <a target="_blank">동우개발</a>
+                      <a target="_blank">혜진종합관리</a>
                     </Link>
                   </li>
                   <li>

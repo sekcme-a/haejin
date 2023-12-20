@@ -170,7 +170,7 @@ const TestimonialStyle2 = () => {
         </div>
 
         <div className="testimonials-shape-1">
-          <img src="/images/testimonials/shape-1.png" alt="동우개발" />
+          <img src="/images/testimonials/shape-1.png" alt="혜진종합관리" />
         </div>
       </div>
     </>

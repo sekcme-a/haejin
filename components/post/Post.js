@@ -4,9 +4,12 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 import DownloadIcon from '@mui/icons-material/Download';
+import { useMonitorSize } from "src/public/useMonitorSize";
 
 const Post = ({data, type, id}) => {
   const router = useRouter()
+  const {monitorWidth} = useMonitorSize()
+
 
   function formatDateToYYYYMMDD(date) {
     const year = date?.getFullYear();
@@ -15,22 +18,6 @@ const Post = ({data, type, id}) => {
   
     return `${year}-${month}-${day}`;
   }
-
-  //***모니터 크기 측정 */
-  const [monitorSize, setMonitorSize] = useState(1000);
-  
-  useEffect(() => {
-      const handleResize = () => {
-      setMonitorSize(window.innerWidth);
-      };
-  
-      window.addEventListener('resize', handleResize);
-  
-      return () => {
-      window.removeEventListener('resize', handleResize);
-      };
-  }, []);
-  //**모니터 크기 측정 끝 */
 
   // useEffect(()=>{
   //   console.log
@@ -74,7 +61,7 @@ const Post = ({data, type, id}) => {
             </div>
           </div>
           
-          {monitorSize>=900 &&
+          {monitorWidth>=900 &&
             <div className={styles.navbar_container}>
               {/* <h6>{`< 이전글`}</h6> */}
               <h6 onClick={()=>router.push(`/job/advertisement`)}>목록으로</h6>
@@ -100,7 +87,7 @@ const Post = ({data, type, id}) => {
             )
           })}
         </Grid>
-        {monitorSize<900 &&
+        {monitorWidth<900 &&
             <div className={styles.navbar_container}>
               {/* <h6>{`< 이전글`}</h6> */}
               <h6 onClick={()=>router.push(`/job/advertisement`)}>목록으로</h6>

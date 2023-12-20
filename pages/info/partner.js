@@ -2,10 +2,10 @@
 
 import React from "react";
 import Navbar from "components/Layout/Navbar";
-import PageBanner from "components/Common/PageBanner";
+import PageBanner from "src/public/PageBanner";
 import Footer from "components/Layout/Footer/Footer";
 
-import PartnerCompo from "components/info/Partner";
+import PartnerCompo from "src/info/Partner";
 
 import useData from "context/data";
 import { useEffect } from "react";
@@ -23,7 +23,6 @@ export default function Partner() {
 
   return (
     <>
-      <Navbar />
 
       <PageBanner title="협력사" subtitle="Partner Company" homeText="회사소개" homeUrl="/info/greet" />
 

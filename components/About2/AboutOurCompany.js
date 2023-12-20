@@ -10,7 +10,7 @@ const AboutOurCompany = () => {
               <div className="about-image-wrap">
                 <img
                   src="/images/about/about-2.jpg"
-                  alt="동우개발"
+                  alt="혜진종합관리"
                   data-aos="fade-down"
                   data-aos-delay="50"
                   data-aos-duration="500"
@@ -18,7 +18,7 @@ const AboutOurCompany = () => {
                 />
                 <img
                   src="/images/about/about-3.jpg"
-                  alt="동우개발"
+                  alt="혜진종합관리"
                   data-aos="fade-up"
                   data-aos-delay="50"
                   data-aos-duration="500"
@@ -26,7 +26,7 @@ const AboutOurCompany = () => {
                 />
 
                 <div className="about-shape-3">
-                  <img src="/images/about/shape-1.png" alt="동우개발" />
+                  <img src="/images/about/shape-1.png" alt="혜진종합관리" />
                 </div>
               </div>
             </div>

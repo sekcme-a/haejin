@@ -17,7 +17,7 @@ export function DataProvider(props){
     footer: {fetched: false},
     major: {fetched: false},
     management: {fetched: false},
-
+    business: {fetched:false},
 
     housing: {fetched: false},
     building: {fetched: false},
@@ -37,7 +37,7 @@ export function DataProvider(props){
 
   const [thumbnailsList, setThumbnailsList] = useState({})
   const fetch_thumbnails_list = async (type) => {
-    const query = await db.collection("team").doc("development").collection("posts").where("condition", "==", "게제중").where("type","==",type).orderBy("publishedAt", "desc").get()
+    const query = await db.collection("team").doc("haejin").collection("posts").where("condition", "==", "게제중").where("type","==",type).orderBy("publishedAt", "desc").get()
     const list = query.docs.map(doc=>({...doc.data(), id: doc.id}))
     setThumbnailsList(prevList => ({...prevList, [type]: list}))
   }
@@ -45,7 +45,7 @@ export function DataProvider(props){
 
   const[postsList, setPostsList] = useState({})
   const fetch_post = async (postId) => {
-    const doc = await db.collection("team").doc("development").collection("posts").doc(postId).get()
+    const doc = await db.collection("team").doc("haejin").collection("posts").doc(postId).get()
     if (doc.exists) {
       console.log(doc.data())
       setPostsList(prevList => ({
@@ -58,19 +58,7 @@ export function DataProvider(props){
 
   const fetch_data = async (type) => {
     setIsLoading(true)
-    if(type==="housing" || type==="building" || type==="estate" || type==="hrd" || type==="financial"){
-      const doc = await db.collection("data").doc(type).get()
-      if(doc.exists){
-        setData(prevData => ({
-          ...prevData,
-          [type]: {
-            ...doc.data(),
-            fetched: true
-          }
-        }))
-      }
-    }
-    const doc = await db.collection("development").doc(type).get()
+    const doc = await db.collection("haejin").doc(type).get()
     if(doc.exists){
       setData(prevData => ({
         ...prevData,
@@ -82,8 +70,8 @@ export function DataProvider(props){
     }
     //footer 는 공통적으로 들어가니까 footer fetched: false 면 fetch
     if(!data.footer.fetched){
-      const footerDoc = await db.collection("development").doc("footer").get()
-      if(doc.exists){
+      const footerDoc = await db.collection("haejin").doc("footer").get()
+      if(footerDoc.exists){
         setData(prevData => ({
           ...prevData,
           footer: {

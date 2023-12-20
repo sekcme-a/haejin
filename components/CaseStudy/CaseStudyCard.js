@@ -18,7 +18,7 @@ const CaseStudyCard = () => {
                   <a>
                     <img
                       src="/images/case-study/case-study-1.jpg"
-                      alt="동우개발"
+                      alt="혜진종합관리"
                     />
                   </a>
                 </Link>
@@ -44,7 +44,7 @@ const CaseStudyCard = () => {
                   <a>
                     <img
                       src="/images/case-study/case-study-2.jpg"
-                      alt="동우개발"
+                      alt="혜진종합관리"
                     />
                   </a>
                 </Link>
@@ -70,7 +70,7 @@ const CaseStudyCard = () => {
                   <a>
                     <img
                       src="/images/case-study/case-study-3.jpg"
-                      alt="동우개발"
+                      alt="혜진종합관리"
                     />
                   </a>
                 </Link>
@@ -96,7 +96,7 @@ const CaseStudyCard = () => {
                   <a>
                     <img
                       src="/images/case-study/case-study-4.jpg"
-                      alt="동우개발"
+                      alt="혜진종합관리"
                     />
                   </a>
                 </Link>
@@ -122,7 +122,7 @@ const CaseStudyCard = () => {
                   <a>
                     <img
                       src="/images/case-study/case-study-5.jpg"
-                      alt="동우개발"
+                      alt="혜진종합관리"
                     />
                   </a>
                 </Link>
@@ -148,7 +148,7 @@ const CaseStudyCard = () => {
                   <a>
                     <img
                       src="/images/case-study/case-study-6.jpg"
-                      alt="동우개발"
+                      alt="혜진종합관리"
                     />
                   </a>
                 </Link>

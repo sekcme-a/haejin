@@ -1,12 +1,10 @@
 
 
 import React, {useState, useEffect} from "react";
-import Navbar from "components/Layout/Navbar";
-import PageBanner from "components/Common/PageBanner";
-import Footer from "components/Layout/Footer/Footer";
+import PageBanner from "src/public/PageBanner";
 
-import HowToGo from "components/info/HowToGo";
-import KakaoMap from "components/info/KakaoMap";
+import HowToGo from "src/info/HowToGo";
+import KakaoMap from "src/info/KakaoMap";
 
 
 
@@ -43,15 +41,13 @@ const Map = () => {
 
   return(
     <>
-      <Navbar />
 
       <PageBanner title="오시는 길" subtitle="Location" homeText="회사소개" homeUrl="/info/greet" />
 
-      <KakaoMap title="동우개발" locX={fetchedData.map_locX} locY={fetchedData.map_locY} />
+      <KakaoMap title="혜진종합관리" locX={fetchedData.map_locX} locY={fetchedData.map_locY} />
 
       <HowToGo />
 
-      <Footer />
     </>
   )
 }

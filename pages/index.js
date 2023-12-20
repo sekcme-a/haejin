@@ -1,19 +1,16 @@
 import React, { useEffect } from "react";
-import Navbar from "components/Layout/Navbar";
-import MainBanner from "components/HomePageDemo3/MainBanner";
-import OurExpertise from "components/HomePageDemo3/OurExpertise";
-import ScrollCount from "components/Common/ScrollCount";
+import Navbar from "src/public/Navbar";
+import MainBanner from "src/index/MainBanner";
 import OurServices from "components/HomePageDemo3/OurServices";
-import WhyChooseUsStyle2 from "components/Common/WhyChooseUsStyle2";
-import Pricing from "components/PricingPlan/Pricing";
-import CaseStudy from "components/Common/CaseStudy";
-import AboutOurCompany from "components/HomePageDemo3/AboutOurCompany";
+import AboutOurCompany from "src/index/AboutOurCompany";
 import TestimonialStyle2 from "components/Common/TestimonialStyle2";
 import TeamMemberStyle2 from "components/Common/TeamMemberStyle2";
 import Faq from "components/Common/Faq";
 import Cta from "components/Common/Cta";
 import Footer from "components/Layout/Footer/Footer";
 import useData from "context/data";
+import TopServices from "src/index/TopServices";
+import Business from "src/index/Business"
 
 export default function Index3() {
 
@@ -26,16 +23,18 @@ export default function Index3() {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <MainBanner />
 
-      <OurExpertise />
+      <TopServices />
+
+      <AboutOurCompany />
+
 
       <OurServices />
 
-
-      <ScrollCount />
+      <Business />
 
      
 
@@ -57,7 +56,7 @@ export default function Index3() {
         <Cta />
       </div> */}
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
