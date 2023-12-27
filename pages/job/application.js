@@ -21,7 +21,6 @@ const Application = () => {
       <div style={{marginTop: "100px"}} />
       <ApplicationCompo />
 
-      <Footer />
     </>
   )
 }

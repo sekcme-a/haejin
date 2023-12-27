@@ -28,7 +28,6 @@ useEffect(()=>{
       <HistoryCompo />
 
 
-      <Footer />
     </>
   )
 }

@@ -37,7 +37,6 @@ const Advertisement = () => {
         <AdvertisementCompo list={thumbnailsList["advertisement"]}/>
         }
 
-      <Footer />
     </>
   )
 }

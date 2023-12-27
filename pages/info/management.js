@@ -37,7 +37,6 @@ export default function Overview() {
         <WorkingProcess_Management />
 
         <OverviewContent_Management />
-      <Footer />
     </>
   );
 }
