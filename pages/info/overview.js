@@ -14,7 +14,7 @@ import Footer from "components/Layout/Footer/Footer";
 
 import OverviewCompo from "components/info/Overview"
 
-
+import HeadMeta from "src/public/HeadMeta"
 import useData from "context/data";
 import { useEffect } from "react";
 import WorkingProcess from "src/info/WorkingProcess";
@@ -31,7 +31,11 @@ export default function Overview() {
 
   return (
     <>
-
+<HeadMeta
+        title="혜진종합관리-회사개요"
+        description="혜진종합관리의 회사 개요를 소개합니다."
+        url="https://xn--zb0b93v0rlpgb594av4a.kr/info/overview"
+      />
       <PageBanner title="회사 개요" subtitle="Company Overview" homeText="회사소개" homeUrl="/info/greet" />
 
         <WorkingProcess />

@@ -42,8 +42,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>혜진종합관리 - 입주민들의 안락한 생활을 위해 노력하고 있습니다.</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
+        <meta charSet="utf-8" />
+        <link rel="canonical" href="https://xn--zb0b93v0rlpgb594av4a.kr"></link>
+        <meta name="robots" content="index,follow"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <UserDataProvider>
         <DataProvider>

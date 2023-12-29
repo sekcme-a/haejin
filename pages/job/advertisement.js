@@ -9,7 +9,7 @@ import { CircularProgress, Grid } from "@mui/material"
 import AdvertisementCompo from "src/job/Advertisement"
 
 import useData from "context/data";
-
+import HeadMeta from "src/public/HeadMeta"
 const Advertisement = () => {
 
   const {thumbnailsList, fetch_thumbnails_list} = useData()
@@ -28,6 +28,12 @@ const Advertisement = () => {
 
   return(
     <>
+<HeadMeta
+        title="혜진종합관리-채용공고"
+        description="혜진종합관리의 채용공고를 안내드립니다."
+        url="https://xn--zb0b93v0rlpgb594av4a.kr/job/advertisement"
+      />
+
 
       <PageBanner title="채용공고" subtitle="Job Advertisement" homeText="채용공고" homeUrl="/job/advertisement" />
 

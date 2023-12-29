@@ -12,6 +12,8 @@ import useData from "context/data";
 import TopServices from "src/index/TopServices";
 import Business from "src/index/Business"
 
+import HeadMeta from "src/public/HeadMeta";
+
 export default function Index3() {
 
   const {data, fetch_data} = useData()
@@ -23,6 +25,13 @@ export default function Index3() {
 
   return (
     <>
+
+
+<HeadMeta
+        title="혜진종합관리-장비보유현황"
+        description="혜진종합관리, 경비용역/위생용역/이주관리,범죄예방."
+        url="https://xn--zb0b93v0rlpgb594av4a.kr"
+      />
       {/* <Navbar /> */}
 
       <MainBanner />

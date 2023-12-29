@@ -9,14 +9,16 @@ import Script from "next/script";
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="zxx">
+      <Html lang="kr">
         <Head>
-            <meta name="naver-site-verification" content="dff4d9c1706e786ef9faec449c45bb43125b7cea" />
+          <meta charSet="UTF-8" />
+          <meta name="naver-site-verification" content="031c8df7002f8ed524668189cbae7f18c4dcfd1d" />
+          <meta name="google-site-verification" content="Ci1nOc6nfh4IK3JSplRdACS8hlgpwm_aVo3aDyMg0iM" />
             <link
                 href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
                 rel="stylesheet"
             />
-          <link rel="icon" href="/image/favicon.png" />
+          <link rel="icon" href="/images/favicon.png" />
           <link
             href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
             rel="stylesheet"

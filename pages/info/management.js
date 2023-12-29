@@ -14,7 +14,7 @@ import Footer from "components/Layout/Footer/Footer";
 
 import OverviewCompo from "components/info/Overview"
 
-
+import HeadMeta from "src/public/HeadMeta"
 import useData from "context/data";
 import { useEffect } from "react";
 import WorkingProcess_Management from "src/info/WorkingProcess_Management";
@@ -31,7 +31,11 @@ export default function Overview() {
 
   return (
     <>
-
+<HeadMeta
+        title="혜진종합관리-경영방침"
+        description="혜진종합관리의 경영방침을 안내드립니다."
+        url="https://xn--zb0b93v0rlpgb594av4a.kr/info/management"
+      />
       <PageBanner title="경영방침" subtitle="Management Philosophy" homeText="회사소개" homeUrl="/info/greet" />
 
         <WorkingProcess_Management />

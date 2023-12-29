@@ -7,7 +7,7 @@ import HowToGo from "src/info/HowToGo";
 import KakaoMap from "src/info/KakaoMap";
 
 
-
+import HeadMeta from "src/public/HeadMeta"
 import useData from "context/data";
 const Map = () => {
   const {data, fetch_data} = useData()
@@ -41,7 +41,11 @@ const Map = () => {
 
   return(
     <>
-
+<HeadMeta
+        title="혜진종합관리-오시는 길"
+        description="혜진종합관리로 오시는 길을 안내드립니다."
+        url="https://xn--zb0b93v0rlpgb594av4a.kr/info/map"
+      />
       <PageBanner title="오시는 길" subtitle="Location" homeText="회사소개" homeUrl="/info/greet" />
 
       <KakaoMap title="혜진종합관리" locX={fetchedData.map_locX} locY={fetchedData.map_locY} />
