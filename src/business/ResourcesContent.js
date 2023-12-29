@@ -31,11 +31,13 @@ const SecurityContent = () => {
                   <EditButton type="business" item="resources_first_title" text="제목" />
                 </h3>
 
-                <img
-                  src={data?.business?.resources_content_img1}
-                  href="기술인력현황"
-                  style={{width:'700px'}}
-                />
+                <div style={{display:"flex", width:'100%', justifyContent:"center"}}>
+                  <img
+                    src={data?.business?.resources_content_img1}
+                    href="기술인력현황"
+                    style={{width:'700px'}}
+                  />
+                </div>
                 <div style={{position:"relative"}}>
                   <EditButton
                     mode="image"  

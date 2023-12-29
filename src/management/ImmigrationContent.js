@@ -43,11 +43,13 @@ const ImmigrationContent = () => {
                     defaultImg="/image/management/immigration1.png"
                   />
                 </div>
-                <img
-                  src={data?.management?.immigration_content_img1}
-                  href="관리운영계획"
-                  style={{width:'600px'}}
-                />
+                <div style={{display:"flex", width:'100%', justifyContent:"center"}}>
+                  <img
+                    src={data?.management?.immigration_content_img1}
+                    href="관리운영계획"
+                    style={{width:'800px'}}
+                  />
+                </div>
 
 
 
@@ -90,11 +92,13 @@ const ImmigrationContent = () => {
                     defaultImg="/image/management/immigration2.jpeg"
                   />
                 </div>
-                <img
-                  src={data?.management?.immigration_content_img2}
-                  href="재건축 실적 "
-                  style={{width:'600px'}}
-                />
+                <div style={{display:"flex", width:'100%', justifyContent:"center"}}>
+                  <img
+                    src={data?.management?.immigration_content_img2}
+                    href="재건축 실적 "
+                    style={{width:'800px'}}
+                  />
+                </div>
 
 
 

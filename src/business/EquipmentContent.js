@@ -30,12 +30,6 @@ const EquipmentContent = () => {
                   <span>| </span> {data.business.equipment_first_title}
                   <EditButton type="business" item="equipment_first_title" text="제목" />
                 </h3>
-
-                <img
-                  src={data?.business?.equipment_content_img1}
-                  href="기술인력현황"
-                  style={{width:'700px'}}
-                />
                 <div style={{position:"relative"}}>
                   <EditButton
                     mode="image"  
@@ -43,6 +37,14 @@ const EquipmentContent = () => {
                     defaultImg="/image/business/equipment.jpeg"
                   />
                 </div>
+                <div style={{display:"flex", width:'100%', justifyContent:"center", marginTop:'50px'}}>
+                  <img
+                    src={data?.business?.equipment_content_img1}
+                    href="기술인력현황"
+                    style={{width:'700px'}}
+                  />
+                </div>
+
 
 
 
