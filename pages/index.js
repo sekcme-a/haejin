@@ -28,8 +28,8 @@ export default function Index3() {
 
 
 <HeadMeta
-        title="혜진종합관리-장비보유현황"
-        description="혜진종합관리, 경비용역/위생용역/이주관리,범죄예방."
+        title="혜진종합관리"
+        description="경비용역/위생용역/이주관리,범죄예방 혜진종합관리입니다."
         url="https://xn--zb0b93v0rlpgb594av4a.kr"
       />
       {/* <Navbar /> */}
