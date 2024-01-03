@@ -13,6 +13,7 @@ import TopServices from "src/index/TopServices";
 import Business from "src/index/Business"
 
 import HeadMeta from "src/public/HeadMeta";
+import PopUp from "src/index/PopUp";
 
 export default function Index3() {
 
@@ -33,6 +34,7 @@ export default function Index3() {
         url="https://xn--zb0b93v0rlpgb594av4a.kr"
       />
       {/* <Navbar /> */}
+      <PopUp />
 
       <MainBanner />
 
