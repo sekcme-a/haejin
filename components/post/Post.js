@@ -64,7 +64,7 @@ const Post = ({data, type, id}) => {
           {monitorWidth>=900 &&
             <div className={styles.navbar_container}>
               {/* <h6>{`< 이전글`}</h6> */}
-              <h6 onClick={()=>router.push(`/job/advertisement`)}>목록으로</h6>
+              <h6 onClick={()=>router.push(`/article/${type}`)}>목록으로</h6>
               {/* <h6>{`다음글 >`}</h6> */}
             </div>
           }
@@ -90,7 +90,7 @@ const Post = ({data, type, id}) => {
         {monitorWidth<900 &&
             <div className={styles.navbar_container}>
               {/* <h6>{`< 이전글`}</h6> */}
-              <h6 onClick={()=>router.push(`/job/advertisement`)}>목록으로</h6>
+              <h6 onClick={()=>router.push(`/article/${type}`)}>목록으로</h6>
               {/* <h6>{`다음글 >`}</h6> */}
             </div>
           }

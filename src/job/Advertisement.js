@@ -5,10 +5,11 @@ import InputAdornment from '@mui/material/InputAdornment';
 import SearchIcon from '@mui/icons-material/Search';
 
 import AdvertisementList from "./AdvertisementList"
+import AnnouncementList from "./AnnouncementList"
 // import ArticleList from "./ArticleList";
 
 
-const Advertisement = ({list}) => {
+const Advertisement = ({list, typeText, type}) => {
   const [input, setInput]= useState("")
   const [filteredList, setFilteredList] = useState(list)
 
@@ -40,9 +41,9 @@ const Advertisement = ({list}) => {
 
   return(
     <div className={styles.main_container}>
-      <h1>채용공고</h1>
+      <h1>{typeText}</h1>
       <div className={styles.search_container}>
-        <p>{list?.length===filteredList?.length ? `총 ${filteredList?.length}개의 채용공고가 있습니다.` : `총 ${filteredList?.length}개의 채용공고가 검색되었습니다.`}</p>
+        <p>{list?.length===filteredList?.length ? `총 ${filteredList?.length}개의 ${typeText}(이)가 있습니다.` : `총 ${filteredList?.length}개의 ${typeText}가 검색되었습니다.`}</p>
         <TextField
           label="Search"
           variant="outlined"
@@ -56,7 +57,7 @@ const Advertisement = ({list}) => {
           className={styles.search_box}
         />
       </div>
-      {filteredList && <AdvertisementList list={filteredList} countPerPage={10}/>}  
+      {filteredList && <AnnouncementList list={filteredList} countPerPage={10}/>}  
     </div>
   )
 }

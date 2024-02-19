@@ -165,7 +165,7 @@ const Navbar = () => {
                     </ul>
                   </li>
 
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a href="#" className="nav-link">
                       인재채용 <i className="ri-arrow-down-s-line"></i>
                     </a>
@@ -184,6 +184,13 @@ const Navbar = () => {
                         </Link>
                       </li>
                     </ul>
+                  </li> */}
+                  <li className="nav-item">
+                    <Link href="/article/announcement">
+                      <a className="nav-link">
+                        공지사항
+                      </a>
+                    </Link>
                   </li>
 
                 </ul>

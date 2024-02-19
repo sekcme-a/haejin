@@ -28,7 +28,7 @@ const Advertisement = () => {
 
   return(
     <>
-<HeadMeta
+      <HeadMeta
         title="혜진종합관리-채용공고"
         description="혜진종합관리의 채용공고를 안내드립니다."
         url="https://xn--zb0b93v0rlpgb594av4a.kr/job/advertisement"

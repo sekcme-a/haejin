@@ -13,6 +13,8 @@ const Post = () => {
   const [isLoading, setIsLoading] = useState(true)
   const [hasData, setHasData] = useState(false)
 
+  const [typeText, setTypeText] = useState("")
+
   useEffect(() => {
     const fetchData = async () => {
       if(postsList[id]){
@@ -25,6 +27,8 @@ const Post = () => {
         setIsLoading(false)
       }
     }
+
+    if(type==="announcement") setTypeText("공지사항")
     if(type, id)
       fetchData()
   },[type,id])
@@ -32,7 +36,7 @@ const Post = () => {
 
   return(
     <>
-      <PageBanner title="채용공고" subtitle="Job Application" homeText="인재 채용" homeUrl="/job/advertisement" />
+      <PageBanner title="공지사항" subtitle={type?.charAt(0).toUpperCase() + type?.slice(1)} homeText="공지사항" homeUrl="/article/announcement" />
 
       {isLoading ? 
         <div style={{width:"100vw", marginTop:"100px", marginBottom:"100px", display: "flex", justifyContent:"center"}}>
