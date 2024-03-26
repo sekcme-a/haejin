@@ -42,7 +42,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-      <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
         <meta charSet="utf-8" />
         <link rel="canonical" href="https://xn--zb0b93v0rlpgb594av4a.kr"></link>
         <meta name="robots" content="index,follow"></meta>
