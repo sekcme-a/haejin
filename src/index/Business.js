@@ -105,12 +105,12 @@ const WhyChooseUsStyle1 = () => {
                 data-aos-duration="500"
                 data-aos-once="true"
               >
-                <img src={data.main.business_bgImg} alt="혜진종합관리" />
+                <img src={data.main.business_bgImg} alt="업무영역 및 현황" />
                 <EditButton type="main" item="business_bgImg" text="이미지 삽입" mode="image" defaultImg="/image/main/business.png"/>
                 <div
                   className="why-choose-us-shape-1"
                 >
-                  <img src="/images/why-choose-us/shape-1.png" alt="혜진종합관리" />
+                  <img src="/images/why-choose-us/shape-1.png" alt="업무 바탕" />
                 </div>
               </div>
             </div>

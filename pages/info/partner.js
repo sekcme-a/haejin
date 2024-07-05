@@ -30,7 +30,7 @@ export default function Partner() {
       />
       <PageBanner title="협력사" subtitle="Partner Company" homeText="회사소개" homeUrl="/info/greet" />
 
-      <PartnerCompo />
+      {/* <PartnerCompo /> */}
 
 
     </>

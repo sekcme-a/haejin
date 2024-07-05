@@ -52,7 +52,7 @@ const Partner = () => {
               <div className="col-lg-3 col-sm-6" key={index}>
                 <div className="single-team-item">
                   <div className="team-image">
-                    <img src={item.imgUrl} alt={item.title} style={{height:"200px", objectFit:"contain"}}/>
+                    <img src={item.imgUrl} alt={item.title ?? "협력사 바탕"} style={{height:"200px", objectFit:"contain"}}/>
                     { item.url &&
                       <div className="social">
                         <a target="_blank" href={item.url} rel="noreferrer">
@@ -73,7 +73,7 @@ const Partner = () => {
         </div>
 
         <div className="team-shape-1">
-          <img src="/images/team/shape-1.png" alt="혜진종합관리" />
+          <img src="/images/team/shape-1.png" alt="협력사" />
         </div>
       </div>
     </>

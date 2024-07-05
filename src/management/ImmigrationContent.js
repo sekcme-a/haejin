@@ -46,7 +46,7 @@ const ImmigrationContent = () => {
                 <div style={{display:"flex", width:'100%', justifyContent:"center"}}>
                   <img
                     src={data?.management?.immigration_content_img1}
-                    href="관리운영계획"
+                    alt="관리운영계획"
                     style={{width:'800px'}}
                   />
                 </div>
@@ -95,7 +95,7 @@ const ImmigrationContent = () => {
                 <div style={{display:"flex", width:'100%', justifyContent:"center"}}>
                   <img
                     src={data?.management?.immigration_content_img2}
-                    href="재건축 실적 "
+                    alt="재건축 실적 "
                     style={{width:'800px'}}
                   />
                 </div>

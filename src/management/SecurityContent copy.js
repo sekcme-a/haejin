@@ -83,7 +83,7 @@ const SecurityContent = () => {
                 </h3>
                 <img
                   src={data?.management?.securtiy_content_img1}
-                  href="관리운영계획"
+                  alt="관리운영계획"
                   style={{width:'500px'}}
                 />
                 <div style={{position:"relative"}}>
@@ -125,7 +125,7 @@ const SecurityContent = () => {
 
                 <img
                   src={data?.management?.securtiy_content_img2}
-                  href="주차 관리"
+                  alt="주차 관리"
                   style={{width:'500px'}}
                 />
                 <div style={{position:"relative"}}>

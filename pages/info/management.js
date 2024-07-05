@@ -38,9 +38,9 @@ export default function Overview() {
       />
       <PageBanner title="경영방침" subtitle="Management Philosophy" homeText="회사소개" homeUrl="/info/greet" />
 
-        <WorkingProcess_Management />
+        {/* <WorkingProcess_Management />
 
-        <OverviewContent_Management />
+        <OverviewContent_Management /> */}
     </>
   );
 }

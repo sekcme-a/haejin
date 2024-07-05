@@ -42,7 +42,7 @@ const PageBanner = ({ title,subtitle, homeText, homeUrl }) => {
               >
                 <img
                   src="/image/banner-img.png"
-                  alt="혜진종합관리"
+                  alt="페이지 이미지"
                   data-aos="fade-left"
                   data-aos-delay="50"
                   data-aos-duration="500"

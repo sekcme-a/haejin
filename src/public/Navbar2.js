@@ -84,7 +84,7 @@ const Navbar2 = () => {
                           <a className="nav-link">회사 개요</a>
                         </Link>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <Link href="/info/management" activeClassName="active">
                           <a className="nav-link">경영방침</a>
                         </Link>
@@ -93,7 +93,7 @@ const Navbar2 = () => {
                         <Link href="/info/partner" activeClassName="active">
                           <a className="nav-link">협력사</a>
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="nav-item">
                         <Link href="/info/history" activeClassName="active">
                           <a className="nav-link">연혁</a>

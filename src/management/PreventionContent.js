@@ -74,7 +74,7 @@ const PreventionContent = () => {
                 <div style={{display:"flex", width:'100%', justifyContent:"center"}}>
                   <img
                     src={data?.management?.prevention_content_img1}
-                    href="범죄 예방 "
+                    alt="범죄 예방 "
                     style={{width:'700px'}}
                   />
                 </div>
